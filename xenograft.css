@@ -7,18 +7,19 @@
 
 body {
   background: #000;
-  max-width:100%;
+  max-width: 100%;
 }
 .topic {
   width: 100%;
   height: 70vh;
-  background-image:linear-gradient(
+  background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0.4) 40%,
       rgba(121, 0, 0, 0.85) 100%
-    ),url("./assets/imgs/bg-ren.jpeg") ;
-  
+    ),
+    url("./assets/imgs/bg-ren.jpeg");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,210 +31,209 @@ body {
   justify-content: center;
 }
 
-.top-head{
-    font-size: 60px;
-    font-weight: 700;
+.top-head {
+  font-size: 60px;
+  font-weight: 700;
 }
-
 
 /* secction-2 */
-.re-sec-section{
-    width: 100%;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    padding: 40px;
-    margin-top: 50px;
+.re-sec-section {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  padding: 40px;
+  margin-top: 50px;
 }
-.re-text-box h2{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    color: #C81616;
+.re-text-box h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #c81616;
 }
 .re-text-box ul {
-    padding-left: 40px;
-    font-size: 24px;
-    line-height: 1.8;
+  padding-left: 40px;
+  font-size: 24px;
+  line-height: 1.8;
 }
 .re-text-box2 h2 {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    color: #C81616;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #c81616;
 }
 .re-text-box2 ul {
-    padding-left: 40px;
-    font-size: 24px;
-    line-height: 1.8;
+  padding-left: 40px;
+  font-size: 24px;
+  line-height: 1.8;
 }
 .re-text-box2 p {
-    font-size: 28px;
-    margin-top: 30px;
+  font-size: 28px;
+  margin-top: 30px;
 }
 
 /* section-3 */
 .re-sec-section1 {
-    width: 100%;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    padding: 40px 40px 10px 40px;
-    margin-top: 40px;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  padding: 40px 40px 10px 40px;
+  margin-top: 40px;
 }
-.re-coverage-text{
-    padding-right: 30px;
+.re-coverage-text {
+  padding-right: 30px;
 }
 .re-coverage-text h3 {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    padding-right: 20px;
-    color: #C81616;
-    text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding-right: 20px;
+  color: #c81616;
+  text-transform: uppercase;
 }
 .re-coverage-text ul {
-    padding-left: 80px;
-    font-size: 24px;
-    line-height: 2.5;
+  padding-left: 80px;
+  font-size: 24px;
+  line-height: 2.5;
 }
 
 /* section 3 */
 
 .re-sec-section2 {
-    width: 100%;
-    height: 100vh;
-    color: #fff;
-    display: flex;
-    padding: 40px;
-    margin-top: 10px;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  padding: 40px;
+  margin-top: 10px;
 }
-.image-box-sec2 img{
-    border-radius: 20px;
-    justify-content: center;
-
+.image-box-sec2 img {
+  border-radius: 20px;
+  justify-content: center;
 }
-.re-top-sec2{
-    padding-left: 80px;
+.re-top-sec2 {
+  padding-left: 80px;
 }
-.re-text-box-sec2 h2{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    color: #C81616;
-    text-transform: uppercase;
+.re-text-box-sec2 h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #c81616;
+  text-transform: uppercase;
 }
 .re-text-box-sec2 ul {
-    padding-left: 40px;
-    font-size: 24px;
-    line-height: 1.8;
+  padding-left: 40px;
+  font-size: 24px;
+  line-height: 1.8;
 }
 .re-text-box2-sec2 h2 {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    color: #C81616;
-    text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #c81616;
+  text-transform: uppercase;
 }
 .re-text-box2-sec2 ul {
-    padding-left: 40px;
-    font-size: 24px;
-    line-height: 1.8;
+  padding-left: 40px;
+  font-size: 24px;
+  line-height: 1.8;
 }
 
 /* -------------section 4 ------------------ */
 
 /* SECTION LAYOUT */
 .re-sec-section1 {
-    display: flex;
-    gap: 40px;
-    padding: 30px 5%;
-    align-items: center;
+  display: flex;
+  gap: 40px;
+  padding: 30px 5%;
+  align-items: center;
 }
 
 /* TEXT ANIMATION */
 .animate-section {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 0.8s ease;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
 }
 
 .animate-section.show {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* TEXT */
 .re-coverage-text-sec3 h3 span {
-    font-size: 40px;
-    font-weight: 700;
-     color: #C81616;
-    text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  color: #c81616;
+  text-transform: uppercase;
 }
 .re-coverage-text-sec3 h4 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-top: 20px;
-     color: #C81616;
-    text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #c81616;
+  text-transform: uppercase;
 }
 
 .re-coverage-text-sec3 ul {
-    margin-top: 15px;
-    padding-left: 40px;
-    font-size: 24px;
-    line-height: 1.8;
+  margin-top: 15px;
+  padding-left: 40px;
+  font-size: 24px;
+  line-height: 1.8;
 }
 
 /* SLIDER */
 .slider {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 12px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
 }
 
 .slides {
-    display: flex;
-    animation: slide 20s infinite;
+  display: flex;
+  animation: slide 20s infinite;
 }
 
 .slides img {
-    width: 100%;
-    flex-shrink: 0;
-    border-radius: 12px;
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 12px;
 }
 
 /* SLIDE ANIMATION */
 @keyframes slide {
-    0%   { transform: translateX(0); }
-    20%  { transform: translateX(0); }
-    25%  { transform: translateX(-100%); }
-    45%  { transform: translateX(-100%); }
-    50%  { transform: translateX(-200%); }
-    70%  { transform: translateX(-200%); }
-    75%  { transform: translateX(-300%); }
-    95%  { transform: translateX(-300%); }
-    100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  45% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  70% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  95% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* RESPONSIVE */
 
@@ -241,7 +241,6 @@ body {
    TABLET VIEW (max-width: 992px)
 ========================= */
 @media (max-width: 992px) {
-
   .topic {
     height: 50vh;
     text-align: center;
@@ -327,7 +326,6 @@ body {
    MOBILE VIEW (max-width: 576px)
 ========================= */
 @media (max-width: 576px) {
-
   .topic {
     height: 40vh;
   }
@@ -381,54 +379,23 @@ body {
 }
 
 @media (max-width: 992px) {
-    .re-sec-section1 {
-        flex-direction: column;
-        text-align: center;
-    }
+  .re-sec-section1 {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .slider {
-        width: 100%;
-    }
+  .slider {
+    width: 100%;
+  }
 
-    .re-coverage-text-sec3 h3 span {
-        font-size: 22px;
-    }
+  .re-coverage-text-sec3 h3 span {
+    font-size: 22px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 .re-footer {
-  padding:40px;
+  padding: 40px;
   max-width: 100%;
   margin: auto;
 }
@@ -449,10 +416,9 @@ body {
 
 .re-footer-title h2 {
   font-size: 2rem;
-  color: #C81616;
+  color: #c81616;
   font-size: 60px;
 }
-
 
 /* SUBSCRIBE */
 .re-subscribe-box {
@@ -475,7 +441,7 @@ body {
 
 .re-subscribe-box button {
   padding: 15px 25px;
-  background: #C81616;
+  background: #c81616;
   color: #fff;
   cursor: pointer;
   border: none;
@@ -526,7 +492,7 @@ hr {
 }
 
 .address .red {
-  color: #C81616;
+  color: #c81616;
   margin-top: 10px;
   font-size: 20px;
   font-weight: 600;
@@ -564,8 +530,8 @@ hr {
   .footer-content {
     grid-template-columns: 1fr;
   }
-  .about-footer-title h2{
-     font-size: 38px;
-     padding-bottom: 20px;
+  .about-footer-title h2 {
+    font-size: 38px;
+    padding-bottom: 20px;
   }
 }
