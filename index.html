@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marksbio tech</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!--  -->
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="nav-top">
+          <div class="logo">
+            <img src="./assets/imgs/marks-biotech-logo 1.png" alt="" />
+          </div>
+        </div>
+        <div class="nav-bottom">
+          <ul class="main-menu">
+            <li><a href="#">Highlights</a></li>
+
+            <!-- ================= Dental Implantology ================= -->
+            <li class="has-mega">
+              Dental Implantology
+
+              <div class="mega-menu">
+                <!-- COLUMN 1 -->
+                <div class="mega-column column-1" id="col1">
+                  <h4>B&B Dental Italy</h4>
+                </div>
+
+                <!-- COLUMN 2 -->
+                <div class="mega-column column-2" id="col2">
+                  <ul>
+                    <li data-img="heritage">Heritage</li>
+                    <li id="unique" data-img="unique">Unique Design</li>
+                    <li data-img="custom">Customized Implants</li>
+                    <li data-img="guided">Digital Guided Surgery</li>
+                    <li data-img="kits">Surgical Kits</li>
+                  </ul>
+                </div>
+
+                <!-- COLUMN 3 -->
+                <div class="mega-column column-3" id="col3">
+                  <h4>Implants</h4>
+                  <ul>
+                    <li data-img="duravit-ev">DURAVIT EV</li>
+                    <li data-img="duravit-3p">DURAVIT 3P</li>
+                    <li data-img="duravit-wide">DURAVIT Wide</li>
+                    <li data-img="duravit-pterygo">DURAVIT Pterygo</li>
+                    <li data-img="duravit-slim">DURAVIT Slim</li>
+                  </ul>
+                </div>
+
+                <!-- IMAGES -->
+                <div class="mega-images">
+                  <img id="img1" src="./assets/imgs/implant.jpg" />
+                  <img id="img2" src="./assets/imgs/lab.jpg" />
+                </div>
+              </div>
+            </li>
+
+            <!-- ================= Regenerative ================= -->
+            <li class="has-mega">
+              Regenerative Products
+              <div class="mega-menu">
+                <div class="mega-column">
+                  <h4>Bonegraft</h4>
+                  <ul>
+                    <li>Allograft</li>
+                    <li><a href="./xenograft.css">Xenograft</a></li>
+                  </ul>
+                </div>
+                <div class="mega-images">
+                  <img src="./assets/imgs/regen1.jpg" />
+                  <img src="./assets/imgs/regen2.jpg" />
+                </div>
+              </div>
+            </li>
+
+            <!-- ================= Robotic ================= -->
+            <li class="has-mega">
+              Robotic Navigation
+              <div class="mega-menu">
+                <div class="mega-column">
+                  <h4>Navident</h4>
+                  <ul>
+                    <li>Navident 3.0</li>
+                    <li>Navident 4.0 EVO</li>
+                  </ul>
+                </div>
+                <div class="mega-images">
+                  <img src="./assets/imgs/robot1.jpg" />
+                  <img src="./assets/imgs/robot2.jpg" />
+                </div>
+              </div>
+            </li>
+
+            <li><a href="#">Photogrammetry</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="./about.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==============================HERO SECTION============================= -->
+    <main class="hero-section">
+      <div class="hero-left">
+        <h1 class="hero-title">MARKS BIOTECH</h1>
+        <h2 class="hero-subtitle">FUTURE <span>DENTISTRY - TODAY</span></h2>
+        <p class="hero-description">
+          Bridging Boundaries, Building Brilliance, Together Towards Tomorrow
+        </p>
+        <div class="hero-line"></div>
+      </div>
+      <div class="hero-right">
+        <img
+          src="./assets/imgs/hero-img.png"
+          alt="Hero Image"
+          class="hero-image"
+        />
+      </div>
+    </main>
+    <!-- ==============================HERO SECTION============================= -->
+    <!-- ============================== SECTION - 1============================= -->
+    <section class="section1">
+      <div class="container">
+        <div class="section-left">
+          <img src="./assets/imgs/hero-section 1.png" alt="" />
+        </div>
+        <div class="section-right">
+          <h2>AUGMENTED <span>REALITY ARGLASSES</span></h2>
+          <p>
+            Navident is compatible with multiple AR Glasses which will help the
+            clinicians during surgery to view the patient jaw and the Monitor
+            screen same time on the Head Gear AR Glasses .
+          </p>
+          <h2>FROM VIRTUAL TO <span>REALITY</span></h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== SECTION - 1============================= -->
+    <!-- ============================== SECTION - 2============================= -->
+    <div class="section-2">
+      <h2>Navident-Navoice</h2>
+      <video controls>
+        <source src="./assets/imgs/navoice.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <!-- ============================== SECTION - 2============================= -->
+    <!-- ============================== SECTION - 3============================= -->
+    <div class="section-3">
+      <h2>Navident</h2>
+      <div class="over-stack-container">
+        <div class="over-con1 card">
+          <div class="Navident3-con">
+            <div class="nav3-text">
+              <h2>Navident <span>3.O </span></h2>
+              <p>
+                Claronav Navident is a cutting-edge computer-guided implant
+                navigation solution that provides live, real-time tracking
+                during dental surgeries. It empowers dentistswith complete
+                control over angle, depth, and position, ensuring predictable
+                and efficient implant outcomes.
+              </p>
+
+              <p>
+                Built for precision-driven implantology and superior clinical
+                performance.
+              </p>
+            </div>
+            <div class="nav3-img">
+              <img src="./assets/imgs/navident-1 done 1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="over-con2 card">
+          <div class="Navident4-con">
+            <div class="nav3-text">
+              <h2>Navident <span>4.O EVO</span></h2>
+              <p>
+                Navident EVO is the latest in dental-surgical navigation
+                technology, designed to enhance the precision and improve the
+                results of hard-tissue dental surgeries.
+              </p>
+            </div>
+            <div class="nav3-img">
+              <img
+                src="./assets/imgs/669ff494c357e8b5911c0173_navident 2.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="over-con3 card">
+          <div class="maico-con">
+            <div class="nav3-img">
+              <img src="./assets/imgs/Rectangle 263.png" alt="" />
+            </div>
+            <div class="maico-text">
+              <h2>Experience Precision and Predictability with MicroMapper</h2>
+              <p>
+                ClaroNav’s MicronMapper is our latest digital solution. This is
+                the key technology utilized by surgeons to deliver a double arch
+                3D provisional within one hour
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================== SECTION - 3============================= -->
+    <!-- ============================== SECTION - 4============================= -->
+    <div class="section-4">
+      <div class="ex-container">
+        <!-- ACTIVE BY DEFAULT -->
+        <div class="ex-card active">
+          <div class="card-bg purple">
+            <h4>Duravit 3P</h4>
+          </div>
+
+          <div class="card-content">
+            <img src="./assets/imgs/implant1.png" class="product-img" />
+            <h3>Duravit 3P</h3>
+            <!-- <p>Lorem ipsum dolor sit amet</p> -->
+            <button>Find out more</button>
+          </div>
+        </div>
+
+        <div class="ex-card">
+          <div class="card-bg green">
+            <h4>Duravit EV</h4>
+          </div>
+          <div class="card-content">
+            <img src="./assets/imgs/implant2.png" class="product-img" />
+            <h3>Duravit EV</h3>
+            <!-- <p>Lorem ipsum dolor sit amet</p> -->
+            <button>Find out more</button>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="card-bg cyan">
+            <h4>Duravit Wide</h4>
+          </div>
+          <div class="card-content">
+            <img src="./assets/imgs/implant3.png" class="product-img" />
+            <h3>Duravit Wide</h3>
+            <!-- <p>Lorem ipsum dolor sit amet</p> -->
+            <button>Find out more</button>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="card-bg red">
+            <h4>Duravit Pterygo</h4>
+          </div>
+          <div class="card-content">
+            <img src="./assets/imgs/implant4.png" class="product-img" />
+            <h3>Duravit Pterygo</h3>
+            <!-- <p>Lorem ipsum dolor sit amet</p> -->
+            <button>Find out more</button>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="card-bg yellow">
+            <h4>Duravit Slim</h4>
+          </div>
+          <div class="card-content">
+            <img src="./assets/imgs/implant5.png" class="product-img" />
+            <h3>Duravit Slim</h3>
+            <!-- <p>Lorem ipsum dolor sit amet</p> -->
+            <button>Find out more</button>
+          </div>
+        </div>
+        <div class="ex-card">
+          <div class="card-bg brown">
+            <h4>Duravit Mini</h4>
+          </div>
+          <div class="card-content">
+            <img src="./assets/imgs/implant6.png" class="product-img" />
+            <h3>Duravit Mini</h3>
+            <!-- <p>Lorem ipsum dolor sit amet</p> -->
+            <button>Find out more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================== SECTION - 4============================= -->
+    <!-- ============================== SECTION - 5============================= -->
+    <div class="section-5">
+      <h2>DIGITAL SURGICAL GUIDE</h2>
+      <p>
+        A surgical guide is a customised medical device that guides the drills
+        and implants in the most suitable area, making the most of the available
+        bone according to the patient’s anatomical conformation and
+        predisposition.
+      </p>
+    </div>
+    <!-- ============================== SECTION - 5============================= -->
+    <!-- ============================== SECTION - 6============================= -->
+    <section class="section6">
+      <div class="section6-container">
+        <!-- LEFT CONTENT -->
+        <div class="section6-content">
+          <h2 class="section6-title">DURAVIT <span>EV</span></h2>
+
+          <p class="section6-description">
+            Advanced EV Implant System<br />
+            Designed for immediate load<br />
+            with functional Prosthesis.
+          </p>
+
+          <p class="section6-highlight">Shorter Time to Teeth.</p>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="section6-image-wrap">
+          <img
+            src="./assets/imgs/section6img.png"
+            alt="Duravit EV Implant"
+            class="section6-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== SECTION - 6============================= -->
+    <!-- ============================== SECTION - 7============================= -->
+    <section class="section7">
+      <div class="section7-overlay"></div>
+
+      <div class="section7-container">
+        <!-- HEADING -->
+        <h2 class="section7-title">DIGITAL WORKFLOW HUB</h2>
+
+        <p class="section7-subtitle">
+          <span>Seamless digital processes</span> designed to deliver
+          <strong>precision, speed, and clinical reliability.</strong>
+          <br />
+          Our streamlined digital workflow integrates advanced technology with
+          expert-driven systems to ensure consistent accuracy and efficient
+          clinical outcomes. From planning to execution, every step is optimized
+          for quality and speed.
+        </p>
+
+        <!-- WORKFLOW -->
+        <div class="section7-workflow">
+          <!-- STEP 1 -->
+          <div class="section7-step step-1">
+            <div class="section7-circle">
+              <img src="./assets/imgs/s1.png" alt="Scan" />
+            </div>
+            <h4>Scan</h4>
+            <p>
+              Capture precise digital impressions and patient data for accurate
+              diagnostics.
+            </p>
+          </div>
+
+          <!-- ARROW -->
+          <div class="section7-arrow">
+            <img src="./assets/imgs/Arrow 2.png" alt="" />
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="section7-step step-2">
+            <div class="section7-circle">
+              <img src="./assets/imgs/s2.png" alt="Plan" />
+            </div>
+            <h4>Plan</h4>
+            <p>
+              Design treatment workflows with guided digital processes and
+              precision.
+            </p>
+          </div>
+
+          <!-- ARROW -->
+          <div class="section7-arrow">
+            <img src="./assets/imgs/Arrow 1.png" alt="" />
+          </div>
+
+          <!-- STEP 3 -->
+          <div class="section7-step step-3">
+            <div class="section7-circle">
+              <img src="./assets/imgs/s3.png" alt="Create" />
+            </div>
+            <h4>Create</h4>
+            <p>
+              Develop customized solutions using advanced digital systems and
+              tools.
+            </p>
+          </div>
+
+          <!-- ARROW -->
+          <div class="section7-arrow">
+            <img src="./assets/imgs/Arrow 2.png" alt="" />
+          </div>
+
+          <!-- STEP 4 -->
+          <div class="section7-step step-4">
+            <div class="section7-circle">
+              <img src="./assets/imgs/s4.png" alt="Execute" />
+            </div>
+            <h4>Execute</h4>
+            <p>
+              Implement workflows with real-time support for flawless clinical
+              execution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== SECTION - 7============================= -->
+    <!-- ============================== SECTION - 8============================= -->
+    <section class="section8">
+      <div class="section8-container">
+        <div class="section8-image-wrap">
+          <!-- <img
+            src="./assets/imgs/section8.png"
+            alt="Dental Implant"
+            class="section8-image"
+          /> -->
+          <!-- <div class="section8-image"></div> -->
+
+          <!-- POINT 1 -->
+          <div class="section8-point p1">
+            <span class="section8-label">MORSE TAPER & INTERNAL HEXAGON</span>
+            <span class="section8-dot"></span>
+          </div>
+
+          <!-- POINT 2 -->
+          <div class="section8-point p2">
+            <span class="section8-dot"></span>
+            <span class="section8-label">MICROGROOVING COLLAR</span>
+          </div>
+
+          <!-- POINT 3 -->
+          <div class="section8-point p3">
+            <span class="section8-label">BODY</span>
+            <span class="section8-dot"></span>
+          </div>
+
+          <!-- POINT 4 -->
+          <div class="section8-point p4">
+            <span class="section8-dot"></span>
+            <span class="section8-label">
+              PERFECT ANATOMICAL DESIGN<br />
+              LIKE A RADICULAR STRUCTURE
+            </span>
+          </div>
+
+          <!-- POINT 5 -->
+          <div class="section8-point p5">
+            <span class="section8-label">SELF TAPPING SYSTEM</span>
+            <span class="section8-dot"></span>
+          </div>
+
+          <!-- POINT 6 -->
+          <div class="section8-point p6">
+            <span class="section8-dot"></span>
+            <span class="section8-label">APICAL “BONE FRIENDLY”</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== SECTION - 8============================= -->
+
+    <!--  -->
+    <script src="./script.js"></script>
+  </body>
+</html>
