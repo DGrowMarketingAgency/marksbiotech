@@ -167,6 +167,7 @@ header {
 /* COLUMNS */
 .mega-column h4 {
   margin-bottom: 12px;
+  font-size: 24px;
 }
 
 .mega-column ul {
