@@ -22,7 +22,6 @@ body {
       rgba(121, 0, 0, 0.85) 100%
     ),
     url("./assets/imgs/allograft.png");
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,9 +33,11 @@ body {
   justify-content: center;
 }
 .top-banner-allo h1 {
+  padding-top: 100px;
   font-size: 50px;
   font-weight: 700;
   text-align: center;
+  color: white;
 }
 
 .hero {
