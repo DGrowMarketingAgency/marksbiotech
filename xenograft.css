@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+ 
 }
 
 body {
@@ -11,14 +11,14 @@ body {
 }
 .topic {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.75) 0%,
       rgba(0, 0, 0, 0.4) 40%,
       rgba(121, 0, 0, 0.85) 100%
     ),
-    url("./assets/imgs/bg-ren.jpeg");
+    url("./assets/imgs/bg-ren2.png");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -31,8 +31,8 @@ body {
   justify-content: center;
 }
 
-.top-head {
-  font-size: 60px;
+.top-head h1 {
+  font-size: 50px;
   font-weight: 700;
 }
 

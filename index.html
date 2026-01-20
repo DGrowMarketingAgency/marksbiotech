@@ -6,40 +6,46 @@
     <title>Marksbio tech</title>
     <!-- css -->
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./nav.css"/>
     <!--  -->
     <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="./js/gsap.min.js"></script>
+<script src="./js/ScrollTrigger.min.js"></script>
+
   </head>
-  <body>
+  <body id="home">
+
+
     <header class="site-header">
-      <div class="container">
+      <div class="nav-container">
         <div class="nav-top">
+         
           <div class="logo">
             <img src="./assets/imgs/marks-biotech-logo 1.png" alt="" />
           </div>
+           <div class="hamburger" id="hamburger">☰</div>
         </div>
         <div class="nav-bottom">
-          <ul class="main-menu">
-            <li><a href="#">Highlights</a></li>
+          <ul class="nav-main-menu">
+            <li><a href="./index.html">Highlights</a></li>
 
+            
             <!-- ================= Dental Implantology ================= -->
             <li class="has-mega">
               Dental Implantology
 
               <div class="mega-menu">
-                <!-- COLUMN 1 -->
-                <div class="mega-column column-1" id="col1">
-                  <h4>B&B Dental Italy</h4>
-                </div>
+                
 
                 <!-- COLUMN 2 -->
                 <div class="mega-column column-2" id="col2">
                   <ul>
-                    <li data-img="heritage">Heritage</li>
-                    <li id="unique" data-img="unique">Unique Design</li>
-                    <li data-img="custom">Customized Implants</li>
-                    <li data-img="guided">Digital Guided Surgery</li>
-                    <li data-img="kits">Surgical Kits</li>
+                    <li data-img="heritage"><a href="https://b-and-b-india.netlify.app/heritage">Heritage </a></li>
+                    <li id="unique" data-img="unique"><a href="#col3">Unique Design</a></li>
+                    <li data-img="custom"><a href="https://b-and-b-india.netlify.app/subperiosteal">Customized Implants</a></li>
+                    <li data-img="guided"><a href="https://b-and-b-india.netlify.app/digitalsurgicalguide">Digital Guided Surgery</a></li>
+                    <li data-img="kits"><a href="https://b-and-b-india.netlify.app/surgicalkit">Surgical Kits</a></li>
                   </ul>
                 </div>
 
@@ -47,21 +53,24 @@
                 <div class="mega-column column-3" id="col3">
                   <h4>Implants</h4>
                   <ul>
-                    <li data-img="duravit-ev">DURAVIT EV</li>
-                    <li data-img="duravit-3p">DURAVIT 3P</li>
-                    <li data-img="duravit-wide">DURAVIT Wide</li>
-                    <li data-img="duravit-pterygo">DURAVIT Pterygo</li>
-                    <li data-img="duravit-slim">DURAVIT Slim</li>
+                    <li data-img="duravit-ev"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design1">DURAVIT EV</a></li>
+                    <li data-img="duravit-3p"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design2">DURAVIT 3P</a></li>
+                    <li data-img="duravit-wide"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design3">DURAVIT Wide</a></li>
+                    <li data-img="duravit-pterygo"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design4">DURAVIT Pterygo</a></li>
+                    <li data-img="duravit-slim"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design5">DURAVIT Slim</a></li>
+                    <li data-img="duravit-slim"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design6">DURAVIT Mini</a></li>
                   </ul>
                 </div>
 
                 <!-- IMAGES -->
                 <div class="mega-images">
-                  <img id="img1" src="./assets/imgs/implant.jpg" />
-                  <img id="img2" src="./assets/imgs/lab.jpg" />
+                  <img id="img1" src="./assets/imgs/di-1.webp" />
+                  <img id="img2" src="./assets/imgs/di-2.jpg" />
                 </div>
               </div>
             </li>
+
+            <li><a href="https://b-and-b-india.netlify.app/conexaconnection">Prosthetics</a></li>
 
             <!-- ================= Regenerative ================= -->
             <li class="has-mega">
@@ -75,8 +84,8 @@
                   </ul>
                 </div>
                 <div class="mega-images">
-                  <img src="./assets/imgs/regen1.jpg" />
-                  <img src="./assets/imgs/regen2.jpg" />
+                  <img src="./assets/imgs/g-1.jpg" />
+                  <img src="./assets/imgs/g-2.jpg" />
                 </div>
               </div>
             </li>
@@ -88,27 +97,28 @@
                 <div class="mega-column">
                   <h4>Navident</h4>
                   <ul>
-                    <li>Navident 3.0</li>
-                    <li>Navident 4.0 EVO</li>
+                    <li><a href="https://marksbiotech.com/navident-3.0">Navident 3.0</a></li>
+                    <li><a href="https://marksbiotech.com/navident-4.0/">Navident 4.0 EVO</a></li>
                   </ul>
                 </div>
                 <div class="mega-images">
-                  <img src="./assets/imgs/robot1.jpg" />
-                  <img src="./assets/imgs/robot2.jpg" />
+                  <img src="./assets/imgs/r-1.jpg" />
+                  <img src="./assets/imgs/r-2.jpg" />
                 </div>
               </div>
             </li>
+            
 
-            <li><a href="#">Photogrammetry</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Blogs</a></li>
+            <li><a href="https://marksbiotech.com/micronmapper/">Photogrammetry</a></li>
+            <li><a href="./events.html">Education</a></li>
+            <li><a href="./blog.html">Blogs</a></li>
+            <li><a href="./careers.html">Careers</li>
             <li><a href="./about.html">About Us</a></li>
           </ul>
         </div>
       </div>
     </header>
-
-    <!-- ==============================HERO SECTION============================= -->
+ <!-- ==============================HERO SECTION============================= -->
     <main class="hero-section">
       <div class="hero-left">
         <h1 class="hero-title">MARKS BIOTECH</h1>
@@ -126,7 +136,6 @@
         />
       </div>
     </main>
-    <!-- ==============================HERO SECTION============================= -->
     <!-- ============================== SECTION - 1============================= -->
     <section class="section1">
       <div class="container">
@@ -134,18 +143,14 @@
           <img src="./assets/imgs/hero-section 1.png" alt="" />
         </div>
         <div class="section-right">
-          <h2>AUGMENTED <span>REALITY ARGLASSES</span></h2>
+          <h2>NAVIDENT OFFERS A SOLUTION OF   <span>AUGMENTED  REALITY ARGLASSES</span></h2>
           <p>
-            Navident is compatible with multiple AR Glasses which will help the
-            clinicians during surgery to view the patient jaw and the Monitor
-            screen same time on the Head Gear AR Glasses .
+            Navident is compatible with multiple Augmented Reality (AR) Glasses which will help the clinicians during surgery to view the patient jaw and the Monitor screen at the same time on the Head Gear AR Glasses .
           </p>
           <h2>FROM VIRTUAL TO <span>REALITY</span></h2>
         </div>
       </div>
     </section>
-
-    <!-- ============================== SECTION - 1============================= -->
     <!-- ============================== SECTION - 2============================= -->
     <div class="section-2">
       <h2>Navident-Navoice</h2>
@@ -153,7 +158,7 @@
         <source src="./assets/imgs/navoice.mp4" type="video/mp4" />
       </video>
     </div>
-    <!-- ============================== SECTION - 2============================= -->
+
     <!-- ============================== SECTION - 3============================= -->
     <div class="section-3">
       <h2>Navident</h2>
@@ -214,10 +219,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> 
 
-    <!-- ============================== SECTION - 3============================= -->
-    <!-- ============================== SECTION - 4============================= -->
+     <!-- ============================= SECTION - 4============================= -->
     <div class="section-4">
       <div class="ex-container">
         <!-- ACTIVE BY DEFAULT -->
@@ -230,7 +234,7 @@
             <img src="./assets/imgs/implant1.png" class="product-img" />
             <h3>Duravit 3P</h3>
             <!-- <p>Lorem ipsum dolor sit amet</p> -->
-            <button>Find out more</button>
+            <button class="div-but"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design2">Find out more</a></button>
           </div>
         </div>
 
@@ -242,7 +246,7 @@
             <img src="./assets/imgs/implant2.png" class="product-img" />
             <h3>Duravit EV</h3>
             <!-- <p>Lorem ipsum dolor sit amet</p> -->
-            <button>Find out more</button>
+            <button class="div-but"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design1">Find out more</a></button>
           </div>
         </div>
         <div class="ex-card">
@@ -253,7 +257,7 @@
             <img src="./assets/imgs/implant3.png" class="product-img" />
             <h3>Duravit Wide</h3>
             <!-- <p>Lorem ipsum dolor sit amet</p> -->
-            <button>Find out more</button>
+            <button class="div-but"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design3">Find out more</a></button>
           </div>
         </div>
         <div class="ex-card">
@@ -264,7 +268,7 @@
             <img src="./assets/imgs/implant4.png" class="product-img" />
             <h3>Duravit Pterygo</h3>
             <!-- <p>Lorem ipsum dolor sit amet</p> -->
-            <button>Find out more</button>
+            <button class="div-but"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design4">Find out more</a></button>
           </div>
         </div>
         <div class="ex-card">
@@ -275,7 +279,7 @@
             <img src="./assets/imgs/implant5.png" class="product-img" />
             <h3>Duravit Slim</h3>
             <!-- <p>Lorem ipsum dolor sit amet</p> -->
-            <button>Find out more</button>
+            <button class="div-but"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design5">Find out more</a></button>
           </div>
         </div>
         <div class="ex-card">
@@ -286,13 +290,11 @@
             <img src="./assets/imgs/implant6.png" class="product-img" />
             <h3>Duravit Mini</h3>
             <!-- <p>Lorem ipsum dolor sit amet</p> -->
-            <button>Find out more</button>
+            <button class="div-but"><a href="https://b-and-b-india.netlify.app/uniqueimplant#design6">Find out more</a></button>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- ============================== SECTION - 4============================= -->
     <!-- ============================== SECTION - 5============================= -->
     <div class="section-5">
       <h2>DIGITAL SURGICAL GUIDE</h2>
@@ -303,36 +305,7 @@
         predisposition.
       </p>
     </div>
-    <!-- ============================== SECTION - 5============================= -->
-    <!-- ============================== SECTION - 6============================= -->
-    <section class="section6">
-      <div class="section6-container">
-        <!-- LEFT CONTENT -->
-        <div class="section6-content">
-          <h2 class="section6-title">DURAVIT <span>EV</span></h2>
-
-          <p class="section6-description">
-            Advanced EV Implant System<br />
-            Designed for immediate load<br />
-            with functional Prosthesis.
-          </p>
-
-          <p class="section6-highlight">Shorter Time to Teeth.</p>
-        </div>
-
-        <!-- RIGHT IMAGE -->
-        <div class="section6-image-wrap">
-          <img
-            src="./assets/imgs/section6img.png"
-            alt="Duravit EV Implant"
-            class="section6-image"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================== SECTION - 6============================= -->
-    <!-- ============================== SECTION - 7============================= -->
+     <!-- ============================== SECTION - 7============================= -->
     <section class="section7">
       <div class="section7-overlay"></div>
 
@@ -417,64 +390,380 @@
         </div>
       </div>
     </section>
+    <!-- ============================== SECTION - 6============================= -->
+    <section class="section6">
+      <div class="section6-container">
+        <!-- LEFT CONTENT -->
+        <div class="section6-content">
+          <h2 class="section6-title">DURAVIT <span>EV</span></h2>
 
-    <!-- ============================== SECTION - 7============================= -->
-    <!-- ============================== SECTION - 8============================= -->
-    <section class="section8">
-      <div class="section8-container">
-        <div class="section8-image-wrap">
-          <!-- <img
-            src="./assets/imgs/section8.png"
-            alt="Dental Implant"
-            class="section8-image"
-          /> -->
-          <!-- <div class="section8-image"></div> -->
+          <p class="section6-description">
+            Advanced EV Implant System<br />
+            Designed for immediate load<br />
+            with functional Prosthesis.
+          </p>
 
-          <!-- POINT 1 -->
-          <div class="section8-point p1">
-            <span class="section8-label">MORSE TAPER & INTERNAL HEXAGON</span>
-            <span class="section8-dot"></span>
-          </div>
+          <p class="section6-highlight">Shorter Time to Teeth.</p>
+        </div>
 
-          <!-- POINT 2 -->
-          <div class="section8-point p2">
-            <span class="section8-dot"></span>
-            <span class="section8-label">MICROGROOVING COLLAR</span>
-          </div>
-
-          <!-- POINT 3 -->
-          <div class="section8-point p3">
-            <span class="section8-label">BODY</span>
-            <span class="section8-dot"></span>
-          </div>
-
-          <!-- POINT 4 -->
-          <div class="section8-point p4">
-            <span class="section8-dot"></span>
-            <span class="section8-label">
-              PERFECT ANATOMICAL DESIGN<br />
-              LIKE A RADICULAR STRUCTURE
-            </span>
-          </div>
-
-          <!-- POINT 5 -->
-          <div class="section8-point p5">
-            <span class="section8-label">SELF TAPPING SYSTEM</span>
-            <span class="section8-dot"></span>
-          </div>
-
-          <!-- POINT 6 -->
-          <div class="section8-point p6">
-            <span class="section8-dot"></span>
-            <span class="section8-label">APICAL “BONE FRIENDLY”</span>
-          </div>
+        <!-- RIGHT IMAGE -->
+        <div class="section6-image-wrap">
+          <img
+            src="./assets/imgs/section6img.png"
+            alt="Duravit EV Implant"
+            class="section6-image"
+          />
         </div>
       </div>
     </section>
-
+   
     <!-- ============================== SECTION - 8============================= -->
+  <section class="section8">
+  <img src="./assets/imgs/hilights-bottom.png" alt="" class="section8-img">
+</section>
+
+
+
+    
+    <footer class="about-footer">
+      <!-- TOP -->
+      <div class="about-footer-top">
+        <div class="about-footer-title">
+          <p>We are here to support You</p>
+          <h2>Connect with us</h2>
+        </div>
+
+        <div class="about-subscribe-box">
+          <input type="email" placeholder="Enter your mail id" />
+          <button class="subsc">Subscribe</button>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- BOTTOM -->
+      <div class="footer-content">
+        <!-- QUICK LINKS -->
+        <div class="footer-col">
+          <h4>Quick links</h4>
+          <ul>
+            <li>Highlights</li>
+            <li>About us</li>
+            <li>Navident</li>
+            <li>MicronMapper</li>
+            <li>B&B Dental</li>
+            <li>Blog</li>
+            <li>Event</li>
+          </ul>
+        </div>
+
+        <!-- PRODUCTS -->
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li>Dental implants</li>
+            <li>Free hand Surgical</li>
+            <li>Computer Guided Surgery</li>
+            <li>Allograft</li>
+            <li>Xenograft</li>
+            <li>Robotic Navigation</li>
+            <li>Photogrammetry</li>
+            <li>Science</li>
+          </ul>
+        </div>
+
+        <!-- ADDRESS -->
+        <div class="footer-col address">
+          <h4>Address</h4>
+
+          <p class="he-red">Operation and Communication Address</p>
+          <p>
+            84, 1st floor, Thirupathy Nagar,<br />
+            Mainroad, 1st Cross street,<br />
+            Valasaravakkam, Chennai-600087.
+          </p>
+
+          <p class="he-red">Registered Office Address</p>
+          <p>
+            104/5, 6th street, s-1, 2nd floor, The Brown CLS Bulding, Ratha
+            Avenue, Valasaravakam, Chennai-600087.
+          </p>
+
+          
+        </div>
+
+        <!-- LOGO + MAP -->
+        <div class="footer-col logo-map">
+          
+          <img
+            src="assets/imgs/marks-biotech-logo 1.png"
+            alt="Marks Biotech Logo"
+            class="logo"
+          />
+           <p class="contact">📞 +91 44 485 93250</p>
+          <p class="contact">📞 +91 9819893250 ,+91 9840320250</p>
+          <p class="contact"><span>✉ </span>info@marksbiotech.com</p>
+          <div class="map-box">Location</div>
+         
+        </div>
+      </div>
+    </footer>
+
+   
 
     <!--  -->
-    <script src="./script.js"></script>
+    <script >
+ 
+// ======================================
+// GSAP + SCROLLTRIGGER SETUP
+// ======================================
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.config({
+  ignoreMobileResize: true,
+});
+
+
+
+
+
+
+// ======================================
+// HEADER ANIMATION (ON LOAD)
+// ======================================
+
+
+gsap.from(".logo img", {
+  y: -20,
+  opacity: 0,
+  duration: 0.8,
+  ease: "power3.out",
+});
+
+gsap.from(".nav-main-menu > li", {
+  y: -15,
+  opacity: 0,
+  duration: 0.6,
+  stagger: 0.08,
+  delay: 0.2,
+  ease: "power3.out",
+});
+
+
+// ======================================
+// MEGA MENU (HOVER IN / OUT)
+// ======================================
+document.querySelectorAll(".has-mega").forEach((menu) => {
+  const mega = menu.querySelector(".mega-menu");
+  if (!mega) return;
+
+  const tl = gsap.timeline({
+    paused: true,
+    defaults: { ease: "power2.out" },
+  });
+
+  // IMPORTANT FIX: animate only column 2 + images
+  tl.to(mega, {
+    opacity: 1,
+    y: 0,
+    duration: 0.35,
+    pointerEvents: "auto",
+  }).from(
+    mega.querySelectorAll(".column-2, .mega-images img"),
+    {
+      y: 20,
+      opacity: 0,
+      duration: 0.4,
+      stagger: 0.06,
+    },
+    "-=0.2"
+  );
+
+  menu.addEventListener("mouseenter", () => tl.play());
+  menu.addEventListener("mouseleave", () => tl.reverse());
+});
+
+// ======================================
+// HERO SECTION
+// ======================================
+const cards = gsap.utils.toArray(".card");
+const isDesktop = window.innerWidth > 1024;
+
+// Desktop (Stack animation + Pin)
+if (isDesktop) {
+  gsap.timeline({
+    scrollTrigger: {
+      trigger: ".section-3",
+      start: "top top",
+      end: "+=2000",
+      scrub: true,
+      pin: true,
+    },
+  })
+    .to(cards[0], { opacity: 1, y: -40, scale: 1, duration: 1.8 })
+    .to(cards[1], { opacity: 1, y: -20, scale: 1, duration: 1.8 })
+    .to(cards[2], { opacity: 1, y: -10, scale: 1, duration: 1.8 });
+
+// Tablet + Mobile (Fade in stagger)
+} else {
+  gsap.to(cards, {
+    scrollTrigger: {
+      trigger: ".section-3",
+      start: "top 85%",
+      end: "bottom 10%",
+      scrub: true,
+    },
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    stagger: 0.25,
+    duration: 0.8,
+    ease: "power1.out",
+  });
+}
+
+
+// =======================================
+// UNIQUE DESIGN → IMPLANTS LOGIC
+// =======================================
+
+const col1 = document.getElementById("col1");
+const col2 = document.getElementById("col2");
+const col3 = document.getElementById("col3");
+const unique = document.getElementById("unique");
+const img1 = document.getElementById("img1");
+const img2 = document.getElementById("img2");
+
+/* IMAGE MAP */
+const imageMap = {
+  heritage: ["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+  unique: ["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+  custom: ["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+  guided: ["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+  kits:["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+
+  "duravit-ev": ["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+  "duravit-3p": ["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+  "duravit-wide": ["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+  "duravit-pterygo": ["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+  "duravit-slim": ["./assets/imgs/di-1.webp", "./assets/imgs/di-2.jpg"],
+};
+
+/* DEFAULT STATES */
+col3.style.display = "none";
+
+/* Hover col2 items → hide col3 */
+col2.querySelectorAll("li").forEach((item) => {
+  item.addEventListener("mouseenter", () => {
+    col3.style.display = "none";
+    const key = item.dataset.img;
+    if (imageMap[key]) {
+      img1.src = imageMap[key][0];
+      img2.src = imageMap[key][1];
+    }
+  });
+});
+
+/* Unique Design → show col3 */
+unique.addEventListener("mouseenter", () => {
+  col3.style.display = "block";
+  img1.src = imageMap.unique[0];
+  img2.src = imageMap.unique[1];
+});
+
+/* Implants hover */
+col3.querySelectorAll("li").forEach((item) => {
+  item.addEventListener("mouseenter", () => {
+    const key = item.dataset.img;
+    if (imageMap[key]) {
+      img1.src = imageMap[key][0];
+      img2.src = imageMap[key][1];
+    }
+  });
+});
+
+/* Keep col3 visible while hovering */
+col3.addEventListener("mouseenter", () => (col3.style.display = "block"));
+col3.addEventListener("mouseleave", () => (col3.style.display = "none"));
+
+// =======================================
+// MOBILE RESPONSIVE (BURGER + OPEN MEGA)
+// =======================================
+const megaParents = document.querySelectorAll(".has-mega");
+megaParents.forEach(parent => {
+  parent.addEventListener("click", () => {
+    if (window.innerWidth <= 767) {
+      parent.classList.toggle("open");
+    }
+  });
+});
+
+const menu = document.querySelector(".nav-main-menu");
+const burger = document.getElementById("hamburger");
+
+burger.addEventListener("click", () => {
+  menu.classList.toggle("active");
+  document.querySelector(".nav-bottom").classList.toggle("open");
+});
+
+
+const cardex = document.querySelectorAll(".ex-card");
+let activeCard = cardex[0]; // first card default
+
+gsap.set(cardex, { width: 70 });
+gsap.set(activeCard, { width: 360 });
+activeCard.classList.add("active");
+
+
+cardex.forEach((card) => {
+  card.addEventListener("click", () => {
+  
+    if (card === activeCard) {
+      gsap.to(card, {
+        width: 70,
+        duration: 0.4,
+        ease: "power3.out",
+      });
+      card.classList.remove("active");
+      activeCard = null;
+      return;
+    }
+
+    if (activeCard) {
+      gsap.to(activeCard, {
+        width: 70,
+        duration: 0.4,
+        ease: "power3.out",
+      });
+      activeCard.classList.remove("active");
+    }
+
+    gsap.to(card, {
+      width: 360,
+      duration: 0.6,
+      ease: "power4.out",
+    });
+
+    card.classList.add("active");
+    activeCard = card;
+  });
+});
+
+
+
+
+// ---
+
+if (window.innerWidth < 768) {
+  gsap.set(cardex, { clearProps: "width" });
+}
+
+
+
+
+
+
+    </script>
+    
   </body>
 </html>
