@@ -35,8 +35,12 @@ h2 {
 p {
   font-family: var(--secondary-font);
 }
-
-
+a{
+    text-decoration: none;
+}
+li{
+    color: #eeeeee;
+}
 
 .blog-detail-container{
     width:85%;
