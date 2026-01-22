@@ -172,8 +172,3 @@ cardex.forEach((card) => {
 });
 
 // ----------  xenograft -------
-
-
-
-
- 

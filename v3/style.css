@@ -1330,3 +1330,70 @@ a {
     height: auto;
   }
 }
+
+/* ========== */
+
+
+/* TABLET */
+/* @media (max-width:1024px) {
+  .over-stack-container {
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    position:static;
+  }
+
+  .card {
+    position:static !important;
+    width:90%;
+    height:auto;
+    opacity:1;
+    transform:none !important;
+  }
+} */
+
+/* MOBILE */
+/* @media (max-width:768px) {
+  .card {
+    width:95%;
+    opacity:1;
+    transform:none !important;
+  }
+} */
+
+
+
+/* MOBILE NAV */
+@media (max-width: 767px) {
+  .nav-main-menu {
+    display: none;       /* default hidden */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;           /* header height */
+    left: 0;
+    width: 100%;
+    background-color: #0f0f0f;
+    z-index: 999;
+  }
+
+  .nav-main-menu.active {
+    display: flex;       /* show when burger clicked */
+  }
+
+  .nav-main-menu li {
+    padding: 15px 20px;
+  }
+
+  /* Mobile mega menu */
+  .has-mega .mega-menu {
+    display: none !important;
+    position: relative;
+    background: #111;
+    padding: 10px 0;
+  }
+
+  .has-mega.open .mega-menu {
+    display: block !important;
+  }
+}
